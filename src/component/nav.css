@@ -1,14 +1,21 @@
 button{
     background-color: #FF5F1F;
     font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
-    border:1px solid;
-    border-color: #696 #363 #363 #696; 
-    font-size: 20px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 18px;
     color: aliceblue;
+    width: 78px;
+    height: 34px;
+    border-radius: 16px;
+}
+button:hover{
+    background-color: white;
+    color: #FF5F1F !important;
 }
 .assistant{
     font: bold 50% 'trebuchet ms',helvetica,sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
 }
 .assistant:hover{
@@ -16,7 +23,7 @@ button{
 }
 .home{
     font: bold 50% 'trebuchet ms',helvetica,sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
 }
 .home:hover{
@@ -24,6 +31,6 @@ button{
 }
 .cinecraft{
     font: bold 50% 'trebuchet ms',helvetica,sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 10px;
 }

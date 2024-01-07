@@ -1,0 +1,29 @@
+button{
+    background-color: #FF5F1F;
+    font: bold 84% 'trebuchet ms',helvetica,sans-serif; 
+    border:1px solid;
+    border-color: #696 #363 #363 #696; 
+    font-size: 20px;
+    color: aliceblue;
+}
+.assistant{
+    font: bold 50% 'trebuchet ms',helvetica,sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.assistant:hover{
+    color:  #FF5F1F !important;
+}
+.home{
+    font: bold 50% 'trebuchet ms',helvetica,sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.home:hover{
+    color:  #FF5F1F !important;
+}
+.cinecraft{
+    font: bold 50% 'trebuchet ms',helvetica,sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}

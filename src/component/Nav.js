@@ -17,6 +17,9 @@ export default function Nav() {
           <Link className="home nav-link text-dark mx-2" to="/">Home</Link>
         </li>
         <li className="nav-item">
+          <Link className="home nav-link text-dark mx-2" to="/about">About Us</Link>
+        </li>
+        <li className="nav-item">
           <Link className="assistant nav-link text-dark" to="/">Assistant</Link>
         </li>
       </ul>

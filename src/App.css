@@ -1,0 +1,714 @@
+hr.solid {
+  border-top: 10px solid rgb(11, 12, 12);
+  
+}
+* {
+  font-family: 'trebuchet ms',helvetica,sans-serif;
+}
+button:active {
+  scale: 0.95;
+  color: black;
+}
+
+.hyper {
+  border: 0px solid white;
+  margin-right: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  margin-left: 200px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
+.home-img img {
+  width: 850px;
+  height: 450px;
+}
+
+.hpara {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+.para {
+  margin-right: 250px;
+}
+
+
+/* Home section */
+@media screen and (min-width: 1000px) {
+  .homeabout {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .home-img img {
+    display: none;
+  }
+
+  .hpara {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .para {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .home-img {
+    padding-top: 25px;
+  }
+
+  .homeabout {
+    display: flex;
+  }
+
+  .hpara {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .para {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+
+  .home-img {
+    padding-top: 25px;
+  }
+
+  .homeabout {
+    display: flex;
+  }
+
+  .hpara {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .para {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+
+  .home-img {
+    padding-top: 25px;
+  }
+
+  .homeabout {
+    display: flex;
+  }
+
+  .hpara {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .para {
+    margin-right: 10px;
+  }
+}
+
+/* about section */
+
+
+.about-us {
+  padding-top: 55px;
+}
+
+.buttons {
+  padding: 25px;
+  gap: 2rem;
+  display: flex;
+  padding-bottom: 150px;
+
+}
+
+@media screen and (min-width: 800px) {
+  .about {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .about-pic {
+    display: none;
+
+  }
+
+  .about-us p {
+    font-size: 2px;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .about {
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+  }
+
+  .about-pic {
+    display: none;
+
+  }
+
+  .about-us p {
+    font-size: 1px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .about {
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+  }
+
+  .about-us p {
+    font-size: 1px;
+  }
+}
+
+/* course images */
+.screen-img {
+  
+  width: 400px;
+  height: 300px;
+}
+
+.screen-img img {
+  align-items: center;
+}
+
+/* Navbar */
+
+ul:hover li {
+  filter: blur(5px);
+  transition: 1.0s;
+}
+
+ul li:hover {
+  filter: blur(0px);
+  transition: 1.5s;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.nav-img {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  gap: 1rem;
+
+}
+
+.site-title {
+  font-size: 35px;
+}
+
+.navbar-nav li {
+  gap: 2rem;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .nav-img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 1rem;
+
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+
+
+  .nav-img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 1rem;
+
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+
+
+  .nav-img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 1rem;
+
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+
+
+  .nav-img {
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    gap: 1rem;
+
+  }
+
+  .site-title {
+    font-size: 1rem;
+  }
+}
+
+/* Content */
+.screen {
+  display: flex;
+}
+
+.hyperContent {
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.hyper a {
+  text-decoration: none;
+  color: black;
+}
+
+.hyper {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+/* Footer Section */
+
+.main-foot {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.foot-about {
+  padding-top: 40px;
+}
+
+.bMenu {
+  text-decoration: none;
+  justify-content: center;
+  padding-top: 20px;
+  padding-right: 300px;
+  padding-left: 60px;
+  font-size: larger;
+}
+
+.footer {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 250px;
+  padding-right: 80px;
+}
+
+.bMList {
+  list-style: none;
+  padding: 20px;
+}
+
+.facebook {
+  width: 40px;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.insta {
+  width: 40px;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+.gmaild {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 299px) {
+  .main-foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .foot-about {
+    padding-top: 40px;
+  }
+
+  .bMenu {
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 300px;
+    padding-left: 60px;
+    font-size: larger;
+  }
+
+  .footer {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .bMList {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .github {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .insta {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .gmaild {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .main-foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .foot-about {
+    padding-top: 40px;
+  }
+
+  .bMenu {
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: larger;
+  }
+
+  .footer {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .bMList {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .github {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .insta {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .gmaild {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .main-foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .foot-about {
+    padding-top: 40px;
+  }
+
+  .bMenu {
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 40px;
+    font-size: larger;
+  }
+
+  .footer {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .bMList {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .github {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .insta {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .gmaild {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  .main-foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .foot-about {
+    padding-top: 40px;
+  }
+
+  .bMenu {
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 60px;
+    font-size: larger;
+  }
+
+  .footer {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .bMList {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .github {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .insta {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .gmaild {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+  .main-foot {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+
+  .foot-about {
+    padding-top: 40px;
+  }
+
+  .bMenu {
+    text-decoration: none;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 60px;
+    font-size: larger;
+  }
+
+  .footer {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .bMList {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .github {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+
+  }
+
+  .insta {
+    width: 40px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+
+  .gmaild {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+.phead {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: black;
+}
+
+.phead:hover {
+  text-decoration: underline;
+}

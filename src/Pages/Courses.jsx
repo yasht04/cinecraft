@@ -13,7 +13,7 @@ const Course = () => {
                     textAlign:"center" 
                 }}>Courses</h1>
             </div>
-           <div className="main flex flex-wrap " >
+           <div className="main flex flex-wrap" >
             <div className="card1">
                     <Card style={{ width: '18rem' }}>
                         <Card.Img style={{
@@ -25,7 +25,7 @@ const Course = () => {
                             Cinematography is the art of capturing images in films. It involves camera work, lighting, composition, and movement to tell stories visually. Cinematographers work with directors to create the desired look and feel of a movie.
                             </Card.Text>
                             <Link to= "/Cinematography" >
-                                <Button variant="primary">View Course</Button>
+                                <Button className="btn btn-primary btn1" style={{backgroundColor: "#FF5F1F",border: "none" ,display: "flex"}}>View Course</Button>
                             </Link>
                         </Card.Body>
                     </Card>
@@ -41,7 +41,7 @@ const Course = () => {
                             Screenplay writing is crafting scripts for films or TV shows, including dialogue, scenes, and action descriptions. It requires a strong grasp of storytelling, character development, and structure.
                             </Card.Text>
                             <Link to= "/screenplay">
-                                <Button variant="primary">View Course</Button>
+                                <Button className="btn btn-primary btn2" style={{backgroundColor: "#FF5F1F",border: "none" ,display: "flex"}}>View Course</Button>
                             </Link>
                             
                         </Card.Body>
@@ -58,7 +58,7 @@ const Course = () => {
                             Movie making involves developing ideas, writing scripts, filming scenes, editing, and distributing the final product. It requires collaboration among directors, producers, cast, and crew to bring stories to life on screen.
                             </Card.Text>
                             <Link to= "/moviemaking">
-                                <Button variant="primary">View Course</Button>
+                                <Button className="btn btn-primary btn3" style={{backgroundColor: "#FF5F1F",border: "none" ,display: "flex"}}>View Course</Button>
                             </Link>
                         </Card.Body>
                     </Card>

@@ -4,6 +4,9 @@ hr.solid {
 .msg {
   white-space: pre-wrap;
 }
+.custom-pagination .page-link {
+  color: #FF5F1F;
+}
 .cen {
   justify-content: center !important;
   align-items: center !important;
@@ -11,13 +14,9 @@ hr.solid {
 }
 .trial{
   display: inline-block;
-	/* height: 70px; */
-	/* margin-top: 70px; */
-	/* padding: 0 25px; */
-	/* border-radius: 35px; */
 	background-color: #eee;
 }
-* {
+*{
   font-family: "trebuchet ms", helvetica, sans-serif;
 }
 .btn1:hover {

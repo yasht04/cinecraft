@@ -281,15 +281,15 @@ hr.solid {
 
 /* Navbar */
 
-/* ul:hover li {
+.ull:hover li {
   filter: blur(5px);
   transition: 1.0s;
 }
 
-ul li:hover {
+.ull li:hover {
   filter: blur(0px);
   transition: 1.5s;
-} */
+}
 
 .navbar {
   background-color: transparent !important;
@@ -395,7 +395,6 @@ ul li:hover {
 .foot-about {
   padding-top: 40px;
 }
-
 .bMenu {
   text-decoration: none;
   justify-content: center;

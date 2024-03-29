@@ -41,7 +41,7 @@ export default function Foter() {
                     </div>
                     
                 </div>
-                <p className='bg-dark text-white text-center flex flex-wrap'>© Cinecraft 2024</p>
+                <div className='bg-dark text-white text-center flex flex-wrap'>© Cinecraft 2024</div>
             </div>
         </>
     )

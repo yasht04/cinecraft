@@ -23,7 +23,7 @@ const NAvbar = () => {
                             </a>    
                     </div>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent" >
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0" style={{
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ull" style={{
                             fontSize: "large"
                         }} >
                             <li className="nav-item" style={{

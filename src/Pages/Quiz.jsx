@@ -301,6 +301,8 @@ const Quiz = () => {
     setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
   };
   return (
+    <>
+    <SignedIn>
     <div className='app11'>
     <div className='app'>
       {showScore ? (
@@ -321,7 +323,7 @@ const Quiz = () => {
               <div className='answer-section'>
                 {shuffledQuestions[currentQuestion].answerOptions.map((answerOption) => (
                   <button onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
-                ))}
+                  ))}
               </div>
             </>
           )}
@@ -329,6 +331,11 @@ const Quiz = () => {
       )}
     </div>
   </div>
+   </SignedIn>
+   <SignedOut>
+     <RedirectToSignIn />
+   </SignedOut>
+      </>
   );
 }
 export default Quiz;

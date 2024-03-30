@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Quiz.css";
+import { SignedOut, SignedIn } from "@clerk/clerk-react";
+import { RedirectToSignIn } from "@clerk/clerk-react";
 const Quiz = () => {
   const questions = [
     {

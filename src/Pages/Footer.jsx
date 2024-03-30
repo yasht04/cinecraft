@@ -7,8 +7,8 @@ export default function Foter() {
 
     return (
         <>
-            <div>
-                <div className="main-foot bg-dark" id='Footer' >
+            <div className="" >
+                <div className="main-foot bg-dark " id='Footer' >
                     <div className="footer" >
                         <ul>
                             <div className="facebook">
@@ -41,7 +41,7 @@ export default function Foter() {
                     </div>
                     
                 </div>
-                <div className='bg-dark text-white text-center flex flex-wrap'>© Cinecraft 2024</div>
+                <div className='bg-dark text-white flex flex-wrap' style={{textAlign:"center",paddingRight:"70px"}}>© Cinecraft 2024</div>
             </div>
         </>
     )

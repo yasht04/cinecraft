@@ -37,6 +37,14 @@ const NAvbar = () => {
                             <li className="nav-item" style={{
                                 fontSize: "large"
                             }}  >
+                                <a className="nav-link active" aria-current="page" href="/Quiz" style={{
+                                    color: "black",
+                                    fontSize: '22px'
+                                }} >Quiz</a>
+                            </li>
+                            <li className="nav-item" style={{
+                                fontSize: "large"
+                            }}  >
                                 <a className="nav-link active" aria-current="page" href="#about" style={{
                                     color: "black",
                                     fontSize: '22px'

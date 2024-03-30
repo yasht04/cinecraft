@@ -10,6 +10,7 @@ import { Route, Routes } from 'react-router-dom';
 import Cinematography from './CourseContent/Cinemato';
 import ScreenPlay from './CourseContent/Screenplay';
 import Moviemaking from './CourseContent/Moviemaking';
+import Quiz from './Pages/Quiz';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               <Course />
             </>
           } />
+          <Route path='/Quiz' element={<Quiz/>} />
           <Route path='/Cinematography' element={<Cinematography />} />
           <Route path='/screenplay' element={<ScreenPlay />} />
           <Route path='/moviemaking' element={<Moviemaking />} />

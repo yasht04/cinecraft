@@ -11,7 +11,7 @@ export default function About() {
                 }} className='head'>About Us </h1>
                 <div className="about">
                     <div className="ab-img">
-                        <img className='about-pic' src={about} alt="" srcset="" />
+                        <img className='about-pic' src={about} alt="" srcSet="" />
                     </div>
                 <p className='about-us' id='color-mix' style={{
                     

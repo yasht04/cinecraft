@@ -2,7 +2,7 @@ import React from "react";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from "../images/logo.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-const NAvbar = () => {
+const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary bg-black well" id='navbar' style={{
@@ -14,7 +14,7 @@ const NAvbar = () => {
                     <FontAwesomeIcon icon={faBars} bounce style={{
                         color: "black"
                     }} className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" />
-                    <img className="nav-img" src={logo} alt="logo" srcset="" />
+                    <img className="nav-img" src={logo} alt="logo" srcSet="" />
                     <div className="site-title" style={{
                         marginRight: "50px"
                     }} >
@@ -75,4 +75,4 @@ const NAvbar = () => {
         </>
     )
 }
-export default NAvbar;
+export default Navbar;

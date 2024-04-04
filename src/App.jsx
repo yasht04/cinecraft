@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import Reacts from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Course from './Pages/Courses';
@@ -11,6 +11,7 @@ import Cinematography from './CourseContent/Cinemato';
 import ScreenPlay from './CourseContent/Screenplay';
 import Moviemaking from './CourseContent/Moviemaking';
 import Quiz from './Pages/Quiz';
+import Chat from './Pages/Chat';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path='/screenplay' element={<ScreenPlay />} />
           <Route path='/moviemaking' element={<Moviemaking />} />
         </Routes>
+        <Chat/>
         <Footer />
        
     </div>

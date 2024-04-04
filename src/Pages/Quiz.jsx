@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./Quiz.css";
-import { SignedOut, SignedIn } from "@clerk/clerk-react";
-import { RedirectToSignIn } from "@clerk/clerk-react";
 const Quiz = () => {
   const questions = [
     {
@@ -304,7 +302,6 @@ const Quiz = () => {
   };
   return (
     <>
-    <SignedIn>
     <div className='app11'>
     <div className='app'>
       {showScore ? (
@@ -333,10 +330,6 @@ const Quiz = () => {
       )}
     </div>
   </div>
-   </SignedIn>
-   <SignedOut>
-     <RedirectToSignIn />
-   </SignedOut>
       </>
   );
 }

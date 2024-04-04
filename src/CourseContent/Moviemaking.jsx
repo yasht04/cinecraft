@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { RedirectToSignIn, SignedIn, SignedOut } from '@clerk/clerk-react';
 import { Pagination } from "react-bootstrap";
 import { useState,useEffect } from "react";
- Moviemaking = () => {
+const Moviemaking = () => {
   const pageContent = [
     {
         elements:[

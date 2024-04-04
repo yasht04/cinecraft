@@ -22,6 +22,8 @@ const Chat = () => {
                 "avatarUrl": "https://i.postimg.cc/fb62V81N/logo.jpg",
                 "stylesheet": "https://webchat-styler-css.botpress.app/prod/b63c1447-e8f8-4bfd-ac9c-61551241e89e/v46352/style.css",
                 "frontendVersion": "v1",
+                "useSessionStorage": true,
+                "enableConversationDeletion": true,
                 "theme": "prism",
                 "themeColor": "#2563eb"
             });

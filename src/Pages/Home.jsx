@@ -6,9 +6,6 @@ import { SignInButton, SignedIn, SignedOut, UserButton } from '@clerk/clerk-reac
 const Home = () => {
 
     const StyledSignInButton = styled(SignInButton)`
-  background-color: Blue;
-  border: none;
-  color: white;
   padding: 12px 40px;
   text-align: center;
   text-decoration: none;

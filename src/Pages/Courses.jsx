@@ -36,7 +36,7 @@ const Course = () => {
                             height: "170px"
                         }} variant="top" src={story} />
                         <Card.Body>
-                            <Card.Title>Screenplay Writing</Card.Title>
+                            <Card.Title>Screenplay Writing</Card.Title>
                             <Card.Text>
                             Screenplay writing is crafting scripts for films or TV shows, including dialogue, scenes, and action descriptions. It requires a strong grasp of storytelling, character development, and structure.
                             </Card.Text>
@@ -72,7 +72,7 @@ const Course = () => {
                             <Accordion.Header> <b>Why should I learn from here</b> </Accordion.Header>
                             <Accordion.Body>
                                 1.)Comprehensive Content  <br />
-                                2.) Interactive Learning Experience: The course also contains images which will help in understanding the conecepts better. <br />                         
+                                2.)Interactive Learning Experience: The course also contains images which will help in understanding the conecepts better. <br />                         
                                 3.)Flexible Learning Schedule: As the content is already present on the website so the learner can learn at its own speed. <br />
                             </Accordion.Body>
                         </Accordion.Item>

@@ -1,8 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faXTwitter} from '@fortawesome/free-brands-svg-icons';
-
-
 export default function Foter() {
 
     return (

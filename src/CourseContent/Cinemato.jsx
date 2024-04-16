@@ -236,7 +236,6 @@ const Cinematography = () => {
             "\n  Low Angles:  Conversely, low-angle shots involve placing the camera below the subject, looking up. This technique has the opposite effect, making characters appear larger and more imposing. When a character is shot from a low angle, it conveys authority and dominance. In Christopher Nolan's 'The Dark Knight' the use of low angles during scenes featuring the Joker enhances his menacing presence, emphasizing the chaotic power he holds over others. \n \n",
         },
         { type: "image", path: img12 },
-        // { type: 'video', url: 'https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_1' },
         {
           type: "text",
           content:
